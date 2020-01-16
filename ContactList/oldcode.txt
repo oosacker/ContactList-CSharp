@@ -1,0 +1,27 @@
+
+                    // Convert the list into a dictionary, referenced by the contact's name string
+                    // Dictionary<string, Contact> NewContactDic = NewContacts.ToDictionary(contact=>contact.Name, contact=>contact);
+
+                    //NewContactDic.ToList().ForEach(x => Contacts.Add(x.Key, x.Value));
+
+                    
+
+                    /*
+                    while (csv.Read())
+                    {
+                        NewContacts = csv.GetRecords<Contact>();
+
+
+                        // I cannot label these variables because the CSV has no header line!!!!
+                        // That is why I use indexes 0 - 3 to indicate different fields
+                        string name = csv.GetField<string>(0);
+                        int phone = csv.GetField<int>(1);
+                        string email = csv.GetField<string>(2);
+                        string occu = csv.GetField<string>(3);
+                        Contact new_contact = new Contact(name, phone, email, occu);
+
+                        Contacts.Add(name, new_contact);
+                        load_count++;
+                    }
+                    Console.WriteLine("Number of contacts loaded: " + load_count);
+                    */
